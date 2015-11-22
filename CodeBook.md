@@ -97,4 +97,13 @@ For each record it is provided:
 Data Transformations 
 =================================
 
+Original data has been transformed with R. The code for the transformation is included in the file run_analysis.R which can be run as long as the original data is in the working directory.
+
+The R script called run_analysis.R does the following:
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 For each activity (1 to 6) and each subject (Subject 1 to Subject 30) the average of each variable was calculated.
